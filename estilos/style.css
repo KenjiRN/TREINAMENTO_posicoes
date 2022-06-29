@@ -40,3 +40,18 @@ iframe#tela{
     width: 269px;
     height: 471px;
 }
+section#redes-sociais{
+    text-align: right;
+    /* Vai deixar os menus de redes sociais no lado direito */
+}
+section#redes-sociais img{
+    border-radius: 50%;
+    width: 50px;
+    margin: 10px;       
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+box-sizing: border-box;
+}
+
+#redes-sociais img:hover{
+    border: 2px solid white;
+}
